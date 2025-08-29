@@ -35,14 +35,13 @@ public static void main(String[] args) {
 //check (count>maxcount)(3>1) true then maxcount=count;(MAXCOUNT IS 3)number=arr[i](3);
 //count starts from 1 again go to loop now it start from i=3;
 //i=3;3<arr.length-1(8) true if(arr[3](1)==arr[4](2)] FALSE go to else and print arr[i]is 1 and count =1;
-//check (count>maxcount)(3>1) true then maxcount=count;(MAXCOUNT IS 1)number=arr[i](3);
+//check (count>maxcount)(1>3) FALSE then maxcount=count;(MAXCOUNT IS 3)number=arr[i](3);no change of maxcount
 //count starts from 1 again go to loop now it start from i=4;
 //i=4;4<arr.length-1(8) true if(arr[4](2)==arr[5](8)] FALSE go to else and print arr[i]is 2 and count =1;
-//check (count>maxcount)(1>1) true then maxcount=count;(MAXCOUNT IS 1)number=arr[i](3);
+//check (count>maxcount)(1>3) true then maxcount=count;(MAXCOUNT IS 3)number=arr[i](3);no change of maxcount
 //count starts from 1 again go to loop now it start from i=5;
 //i=5;5<arr.length-1(8) true if(arr[5](8)==arr[6](8)] true count++=(2);
 //i=6;6<arr.length-1(8) true if(arr[6](8)==arr[7](8)] true count++=(3);
 //i=7;7<arr.length-1(8) true if(arr[7](8)==arr[8](8)] true count++=(4);
 //i=8;8<arr.length-1(8) condition fails and print arr(arr.length-1)is 8 and count is 4);
-//now check (count>maxcount)(4>1)maxcount=count(1=4)number=arr(arr.length-1)8;
-//print 
+//now check (count>maxcount)(4>3)TRUE ------>MAXCOUNT=4 NUMBER arr[i]=8
